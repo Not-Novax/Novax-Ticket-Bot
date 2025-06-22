@@ -1,7 +1,7 @@
 [
   {
-    "id": "example-embed",
-    "name": "Example Embed",
+    "id": "riot-support",
+    "name": "Riot Support",
     "dropdown": false,
     "options": [
       "player-report",
@@ -17,7 +17,7 @@
       "title": "🎟️ Riot RolePlay Ticket System",
       "description": "Welcome to the Riot Roleplay Support Center.\n\nTo get started, please choose the category that best matches your issue.\n> ⚠️ You can only have one active ticket at a time.",
 
-      "customColor": "#f8ab00",
+      "customColor": "#EB1323",
       "url": "",
 
       "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",

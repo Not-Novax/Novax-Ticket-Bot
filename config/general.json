@@ -36,12 +36,13 @@
     "useRedErrorEmbeds": true,
     "emojiStyle": "before",
 
-    "enableTicketClaimButtons": true,
+    "enableTicketClaimButtons": false,
     "enableTicketCloseButtons": true,
-    "enableTicketPinButtons": true,
+    "enableTicketPinButtons": false,
     "enableTicketDeleteButtons": true,
     "enableTicketActionWithReason": true,
     "enableDeleteWithoutTranscript": true,
+    "enableQuickButtonsInTicket": true,
 
     "logs": {
       "enabled": true,

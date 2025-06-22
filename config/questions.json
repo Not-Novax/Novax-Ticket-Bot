@@ -1,28 +1,254 @@
 [
-    {
-        "id":"example-question-1",
-        "name":"Example Question 1",
-        "type":"short",
-        
-        "required":true,
-        "placeholder":"Insert your short answer here!",
-        "length":{
-            "enabled":false,
-            "min":0,
-            "max":1000
-        }
-    },
-    {
-        "id":"example-question-2",
-        "name":"Example Question 2",
-        "type":"paragraph",
-        
-        "required":false,
-        "placeholder":"Insert your long answer here!",
-        "length":{
-            "enabled":false,
-            "min":0,
-            "max":1000
-        }
+  {
+    "id": "report-question-1",
+    "name": "👤Name of the Person You Are Reporting",
+    "type": "short",
+    "required": true,
+    "placeholder": "Enter the in-game name of the player you're reporting.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
     }
+  },
+  {
+    "id": "report-question-2",
+    "name": "📜 Rule(s) Broken",
+    "type": "short",
+    "required": true,
+    "placeholder": "Specify the rule(s) you believe were violated (e.g., RDM, VDM, Metagaming).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "report-question-3",
+    "name": "💬 Did you speak to them? If not, why?",
+    "type": "short",
+    "required": true,
+    "placeholder": "If not, please explain why (e.g., they left, refused to talk, etc.).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "report-question-4",
+    "name": "🧾Explanation",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "Describe the incident and explain how the player's actions violated the server rules.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "report-question-5",
+    "name": "🔗Link to Evidence",
+    "type": "short",
+    "required": true,
+    "placeholder": "Include any video, screenshots, or relevant proof supporting your report.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "compensation-question-1",
+    "name": "👤 Your In-Game Name:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Enter your exact in-game name.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "compensation-question-2",
+    "name": "📉 How Did You Lose Your Items?",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "Briefly explain how the loss occurred (e.g., bug, crash, rulebreak).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "compensation-question-3",
+    "name": "🎒 Items You Lost:",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "List all items you lost (be specific).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "compensation-question-4",
+    "name": "🔗 Link to Evidence:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Provide a video, screenshot, or any proof supporting your claim.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "compensation-question-5",
+    "name": "⏰ Approximate Time of Incident:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Include the date and time (in server time) when the loss occurred.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "unban-question-1",
+    "name": "👤 Your In-Game Name:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Enter your full in-game name.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "unban-question-2",
+    "name": "🆔 Your Hex ID:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Provide your correct Hex ID.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "unban-question-3",
+    "name": "📌 Reason for Ban:",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "Why were you banned? Briefly explain.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "unban-question-4",
+    "name": "👮 Who Banned You & When:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Include the name of the staff member and the date of the ban.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "unban-question-5",
+    "name": "📝 Why Should We Unban You?",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "Explain why your appeal should be considered and what you've learned.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "shop-question-1",
+    "name": "🛍️ What Would You Like to Purchase?",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "List the item, package, or service you wish to buy.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "shop-question-2",
+    "name": "💳 Preferred Payment Method:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Specify how you'd like to pay (e.g., Easypaisa, Bank Transfer, Crypto, etc.).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "shop-question-3",
+    "name": "✅ Do You Agree to Server Terms?",
+    "type": "short",
+    "required": true,
+    "placeholder": "Yes or No — You must agree before proceeding.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "other-question-1",
+    "name": "📌 Subject of Your Request:",
+    "type": "short",
+    "required": true,
+    "placeholder": "Briefly describe the topic (e.g., suggestion, bug report, question).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "other-question-2",
+    "name": "💬 Message:",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "Provide a clear explanation of your request or issue.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 4000
+    }
+  },
+  {
+    "id": "other-question-3",
+    "name": "📎 Attach Evidence/Info (if any):",
+    "type": "short",
+    "required": false,
+    "placeholder": "Optional – include links, screenshots, or documents to support your request.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  }
 ]

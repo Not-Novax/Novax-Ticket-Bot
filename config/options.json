@@ -1,8 +1,8 @@
 [
   {
     "id": "player-report",
-    "name": "Player Report",
-    "description": "Report a player for rule-breaking or inappropriate behavior.",
+    "name": "Player Report Form",
+    "description": "Report a player for rule-breaking or inappropriate behavior in-game.",
     "type": "ticket",
 
     "button": {
@@ -14,12 +14,18 @@
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
-    "questions": ["example-question-1", "example-question-2"],
+    "questions": [
+      "report-question-1",
+      "report-question-2",
+      "report-question-3",
+      "report-question-4",
+      "report-question-5"
+    ],
 
     "channel": {
       "prefix": "report-",
-      "suffix": "user-name",
-      "category": "1385461859779477505",
+      "suffix": "counter-dynamic",
+      "category": "1386260944845541376",
       "closedCategory": "1385704101328846971",
       "backupCategory": "1385615726055919656",
       "claimedCategory": [
@@ -47,16 +53,16 @@
       "text": "",
       "embed": {
         "enabled": true,
-        "title": "Player Report Ticket",
-        "description": "Thank you for creating a Player Report ticket!\nOur moderation team will review your report as soon as possible.",
+        "title": "📑 Player Report Ticket",
+        "description": "✔️ Thank you for submitting a Player Report ticket! Our moderation team will review your report as soon as possible. Please be patient while we investigate. 🕵️‍♂️",
         "customColor": "#EB1323",
-        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284314789941299/Player_Report.gif?ex=68592560&is=6857d3e0&hm=b373974bf1b156dc814dd3e7b9a834c755a1cbb2e47d1a48d6132b21fad06574&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
-        "@here": true,
+        "@here": false,
         "@everyone": false,
         "custom": ["1385484850022318181"]
       }
@@ -79,13 +85,13 @@
     },
     "limits": {
       "enabled": false,
-      "globalMaximum": 20,
+      "globalMaximum": 200,
       "userMaximum": 3
     }
   },
   {
     "id": "compensation",
-    "name": "Compensation",
+    "name": "Compensation Request Form",
     "description": "Request compensation for lost items, in-game currency, or issues caused by server bugs.",
     "type": "ticket",
 
@@ -98,11 +104,17 @@
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
-    "questions": ["example-question-1", "example-question-2"],
+    "questions": [
+      "compensation-question-1",
+      "compensation-question-2",
+      "compensation-question-3",
+      "compensation-question-4",
+      "compensation-question-5"
+    ],
 
     "channel": {
       "prefix": "compensation-",
-      "suffix": "user-name",
+      "suffix": "counter-dynamic",
       "category": "1385461859779477505",
       "closedCategory": "1385704101328846971",
       "backupCategory": "1385615726055919656",
@@ -132,17 +144,17 @@
       "embed": {
         "enabled": true,
         "title": "Compensation Request",
-        "description": "Thank you for creating a Compensation Request ticket!\nOur support team will review your request and assist you.",
+        "description": "💸 Thank you for creating a Compensation Request ticket! Our support team will review your request and assist you as soon as possible. Please be patient.",
         "customColor": "#EB1323",
-        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284292161667082/Compensation.gif?ex=6859255b&is=6857d3db&hm=df1ce9307d3820d30af0457e63692f28d37dba49bba7be8a351cdc7c6d6ba5fe&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
-        "@here": true,
+        "@here": false,
         "@everyone": false,
-        "custom": ["1385484850022318181"]
+        "custom": ["1385484850022318181","1385615223230169269"]
       }
     },
     "autoclose": {
@@ -163,13 +175,13 @@
     },
     "limits": {
       "enabled": false,
-      "globalMaximum": 20,
+      "globalMaximum": 200,
       "userMaximum": 3
     }
   },
   {
     "id": "unban-appeal",
-    "name": "Unban Appeal",
+    "name": "Unban Appeal Form",
     "description": "Were you banned from Riot RP? Submit a formal appeal to request a second chance.",
     "type": "ticket",
 
@@ -182,11 +194,17 @@
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": true,
-    "questions": ["example-question-1", "example-question-2"],
+    "questions": [
+      "unban-question-1",
+      "unban-question-2",
+      "unban-question-3",
+      "unban-question-4",
+      "unban-question-5"
+    ],
 
     "channel": {
       "prefix": "appeal-",
-      "suffix": "user-name",
+      "suffix": "counter-dynamic",
       "category": "1385461859779477505",
       "closedCategory": "1385704101328846971",
       "backupCategory": "1385615726055919656",
@@ -216,15 +234,15 @@
       "embed": {
         "enabled": true,
         "title": "Unban Appeal",
-        "description": "Thank you for creating an Unban Appeal ticket!\nOur moderation team will review your appeal carefully.",
+        "description": "🔓 Thank you for creating an Unban Appeal ticket! Our moderation team will review your appeal carefully and get back to you as soon as possible. 🕵️‍♀️",
         "customColor": "#EB1323",
-        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284350542450688/Unban_Appeal.gif?ex=68592569&is=6857d3e9&hm=3beeb740ce19f6677ef46f5cc07e7a5f8441e3a68c6149661e4789b6977cf039&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
-        "@here": true,
+        "@here": false,
         "@everyone": false,
         "custom": ["1385484850022318181"]
       }
@@ -247,13 +265,13 @@
     },
     "limits": {
       "enabled": false,
-      "globalMaximum": 20,
+      "globalMaximum": 200,
       "userMaximum": 3
     }
   },
   {
     "id": "riot-shop",
-    "name": "Riot Shop",
+    "name": "Shop Purchase Form",
     "description": "Need help with purchases, refunds, or donation-related issues?",
     "type": "ticket",
 
@@ -266,11 +284,11 @@
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
-    "questions": ["example-question-1", "example-question-2"],
+    "questions": ["shop-question-1", "shop-question-2", "shop-question-3"],
 
     "channel": {
       "prefix": "shop-",
-      "suffix": "user-name",
+      "suffix": "counter-dynamic",
       "category": "1385461859779477505",
       "closedCategory": "1385704101328846971",
       "backupCategory": "1385615726055919656",
@@ -300,15 +318,15 @@
       "embed": {
         "enabled": true,
         "title": "Riot Shop Support",
-        "description": "Thank you for creating a Riot Shop Support ticket!\nOur shop team will assist you with your purchase or issue.",
+        "description": "🛒 Thank you for creating a Riot Shop Support ticket! Our shop team will assist you with your purchase or issue as soon as possible. 🧾💬",
         "customColor": "#EB1323",
-        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284326412488787/Riot_Shop.gif?ex=68592563&is=6857d3e3&hm=5c011776987a34b2cea5ba9c66f02ff257b4130220a37c0ad8c43f005810d310&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
-        "@here": true,
+        "@here": false,
         "@everyone": false,
         "custom": ["1385484850022318181"]
       }
@@ -331,14 +349,14 @@
     },
     "limits": {
       "enabled": false,
-      "globalMaximum": 20,
+      "globalMaximum": 200,
       "userMaximum": 3
     }
   },
   {
     "id": "other",
-    "name": "Other",
-    "description": "For any other questions, issues, or concerns not listed above.",
+    "name": "Other – General Inquiry or Request",
+    "description": "For any questions, concerns, or issues not covered by other forms, please fill out the details below.",
     "type": "ticket",
 
     "button": {
@@ -350,11 +368,11 @@
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
-    "questions": ["example-question-1", "example-question-2"],
+    "questions": ["other-question-1", "other-question-2", "other-question-3"],
 
     "channel": {
       "prefix": "other-",
-      "suffix": "user-name",
+      "suffix": "counter-dynamic",
       "category": "1385461859779477505",
       "closedCategory": "1385704101328846971",
       "backupCategory": "1385615726055919656",
@@ -384,15 +402,15 @@
       "embed": {
         "enabled": true,
         "title": "Other Support",
-        "description": "Thank you for creating an Other Support ticket!\nOur support team will help you with your inquiry.",
+        "description": "📝 Thank you for creating an Other Support ticket! Our support team will review your inquiry and assist you shortly. 🤝",
         "customColor": "#EB1323",
-        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284252475166791/other.gif?ex=68592551&is=6857d3d1&hm=e3c2d72ad99b85592f365a9a60b562cdb6d688c125449f214fd1915a2ec8ab1e&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
-        "@here": true,
+        "@here": false,
         "@everyone": false,
         "custom": ["1385484850022318181"]
       }
@@ -415,7 +433,7 @@
     },
     "limits": {
       "enabled": false,
-      "globalMaximum": 20,
+      "globalMaximum": 200,
       "userMaximum": 3
     }
   }

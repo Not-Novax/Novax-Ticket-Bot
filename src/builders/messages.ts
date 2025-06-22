@@ -690,23 +690,7 @@ const ticketMessages = () => {
         new api.ODWorker("opendiscord:ticket-message-components",1,async (instance,params,source) => {
             const {guild,channel,user,ticket} = params
             //add components
-            if (generalConfig.data.system.enableTicketClaimButtons && !ticket.get("opendiscord:closed").value){
-                //enable ticket claiming
-                if (ticket.get("opendiscord:claimed").value){
-                    instance.addComponent(await buttons.getSafe("opendiscord:unclaim-ticket").build("ticket-message",{guild,channel,user,ticket}))
-                }else{
-                    instance.addComponent(await buttons.getSafe("opendiscord:claim-ticket").build("ticket-message",{guild,channel,user,ticket}))
-                }
-            }
-            if (generalConfig.data.system.enableTicketPinButtons && !ticket.get("opendiscord:closed").value){
-                //enable ticket pinning
-                if (ticket.get("opendiscord:pinned").value){
-                    instance.addComponent(await buttons.getSafe("opendiscord:unpin-ticket").build("ticket-message",{guild,channel,user,ticket}))
-                }else{
-                    instance.addComponent(await buttons.getSafe("opendiscord:pin-ticket").build("ticket-message",{guild,channel,user,ticket}))
-                }
-            }
-            if (generalConfig.data.system.enableTicketCloseButtons){
+            if (generalConfig.data.system.enableTicketCloseButtons && !ticket.get("opendiscord:closed").value){
                 //enable ticket closing
                 if (ticket.get("opendiscord:closed").value){
                     instance.addComponent(await buttons.getSafe("opendiscord:reopen-ticket").build("ticket-message",{guild,channel,user,ticket}))
@@ -714,7 +698,6 @@ const ticketMessages = () => {
                     instance.addComponent(await buttons.getSafe("opendiscord:close-ticket").build("ticket-message",{guild,channel,user,ticket}))
                 }
             }
-            //enable ticket deletion
             if (generalConfig.data.system.enableTicketDeleteButtons) instance.addComponent(await buttons.getSafe("opendiscord:delete-ticket").build("ticket-message",{guild,channel,user,ticket}))
         }),
         new api.ODWorker("opendiscord:ticket-message-disable-components",2,async (instance,params,source) => {
