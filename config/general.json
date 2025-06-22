@@ -11,8 +11,8 @@
   "mainColor": "#EB1323",
   "language": "english",
   "prefix": "!ticket ",
-  "serverId": "1385461857644712134",
-  "globalAdmins": ["1385484850022318181"],
+  "serverId": "1055520851950317608",
+  "globalAdmins": ["1384303684506353795"],
 
   "slashCommands": true,
   "textCommands": true,
@@ -46,7 +46,7 @@
 
     "logs": {
       "enabled": true,
-      "channel": "1386249759194349659"
+      "channel": "1384237036659015700"
     },
 
     "limits": {

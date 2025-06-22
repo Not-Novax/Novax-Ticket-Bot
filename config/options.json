@@ -25,9 +25,9 @@
     "channel": {
       "prefix": "report-",
       "suffix": "counter-dynamic",
-      "category": "1386260944845541376",
-      "closedCategory": "1385704101328846971",
-      "backupCategory": "1385615726055919656",
+      "category": "1386325038549962772",
+      "closedCategory": "1386325452360122378",
+      "backupCategory": "1386325452360122378",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
@@ -64,7 +64,7 @@
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1385484850022318181"]
+        "custom": ["1384303684506353795"]
       }
     },
     "autoclose": {
@@ -115,9 +115,9 @@
     "channel": {
       "prefix": "compensation-",
       "suffix": "counter-dynamic",
-      "category": "1385461859779477505",
-      "closedCategory": "1385704101328846971",
-      "backupCategory": "1385615726055919656",
+      "category": "1386325092388311081",
+      "closedCategory": "1386325452360122378",
+      "backupCategory": "1386325452360122378",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
@@ -154,7 +154,7 @@
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1385484850022318181","1385615223230169269"]
+        "custom": ["1384303684506353795"]
       }
     },
     "autoclose": {
@@ -205,9 +205,9 @@
     "channel": {
       "prefix": "appeal-",
       "suffix": "counter-dynamic",
-      "category": "1385461859779477505",
-      "closedCategory": "1385704101328846971",
-      "backupCategory": "1385615726055919656",
+      "category": "1386325129726005429",
+      "closedCategory": "1386325452360122378",
+      "backupCategory": "1386325452360122378",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
@@ -244,7 +244,7 @@
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1385484850022318181"]
+        "custom": ["1384303684506353795"]
       }
     },
     "autoclose": {
@@ -289,9 +289,9 @@
     "channel": {
       "prefix": "shop-",
       "suffix": "counter-dynamic",
-      "category": "1385461859779477505",
-      "closedCategory": "1385704101328846971",
-      "backupCategory": "1385615726055919656",
+      "category": "1386325165566328892",
+      "closedCategory": "1386325452360122378",
+      "backupCategory": "1386325452360122378",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
@@ -328,7 +328,7 @@
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1385484850022318181"]
+        "custom": ["1384303684506353795"]
       }
     },
     "autoclose": {
@@ -373,9 +373,9 @@
     "channel": {
       "prefix": "other-",
       "suffix": "counter-dynamic",
-      "category": "1385461859779477505",
-      "closedCategory": "1385704101328846971",
-      "backupCategory": "1385615726055919656",
+      "category": "1386325208587309126",
+      "closedCategory": "1386325452360122378",
+      "backupCategory": "1386325452360122378",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
@@ -412,7 +412,7 @@
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1385484850022318181"]
+        "custom": ["1384303684506353795"]
       }
     },
     "autoclose": {

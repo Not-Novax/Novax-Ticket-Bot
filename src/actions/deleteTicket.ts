@@ -177,9 +177,6 @@ export const registerVerifyBars = async () => {
                 await instance.defer("update",false)
                 //don't await DELETE action => else it will update the message after the channel has been deleted
                 opendiscord.actions.get("opendiscord:delete-ticket").run("ticket-message",{guild,channel,user,ticket,reason:null,sendMessage:true,withoutTranscript:(params.data == "no-transcript")})
-                //update ticket (for ticket message) => no-await doesn't wait for the action to set this variable
-                ticket.get("opendiscord:for-deletion").value = true
-                await instance.update(await opendiscord.builders.messages.getSafe("opendiscord:ticket-message").build("other",{guild,channel,user,ticket}))
             }
         })
     ])
@@ -262,9 +259,6 @@ export const registerVerifyBars = async () => {
                 await instance.defer("update",false)
                 //don't await DELETE action => else it will update the message after the channel has been deleted
                 opendiscord.actions.get("opendiscord:delete-ticket").run("close-message",{guild,channel,user,ticket,reason:null,sendMessage:false,withoutTranscript:(params.data == "no-transcript")})
-                //update ticket (for ticket message) => no-await doesn't wait for the action to set this variable
-                ticket.get("opendiscord:for-deletion").value = true
-                await instance.update(await opendiscord.builders.messages.getSafe("opendiscord:delete-message").build("close-message",{guild,channel,user,ticket,reason:null}))
             }
         })
     ])
@@ -351,9 +345,6 @@ export const registerVerifyBars = async () => {
                 await instance.defer("update",false)
                 //don't await DELETE action => else it will update the message after the channel has been deleted
                 opendiscord.actions.get("opendiscord:delete-ticket").run("reopen-message",{guild,channel,user,ticket,reason:null,sendMessage:false,withoutTranscript:(params.data == "no-transcript")})
-                //update ticket (for ticket message) => no-await doesn't wait for the action to set this variable
-                ticket.get("opendiscord:for-deletion").value = true
-                await instance.update(await opendiscord.builders.messages.getSafe("opendiscord:delete-message").build("reopen-message",{guild,channel,user,ticket,reason:null}))
             }
         })
     ])
@@ -440,9 +431,6 @@ export const registerVerifyBars = async () => {
                 await instance.defer("update",false)
                 //don't await DELETE action => else it will update the message after the channel has been deleted
                 opendiscord.actions.get("opendiscord:delete-ticket").run("autoclose-message",{guild,channel,user,ticket,reason:null,sendMessage:false,withoutTranscript:(params.data == "no-transcript")})
-                //update ticket (for ticket message) => no-await doesn't wait for the action to set this variable
-                ticket.get("opendiscord:for-deletion").value = true
-                await instance.update(await opendiscord.builders.messages.getSafe("opendiscord:delete-message").build("autoclose-message",{guild,channel,user,ticket,reason:null}))
             }
         })
     ])

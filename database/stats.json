@@ -1,10 +1,10 @@
 [
-    {"category":"opendiscord:global_opendiscord:tickets-created","key":"GLOBAL","value":30},
-    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1149969020972449822","value":22},
-    {"category":"opendiscord:global_opendiscord:tickets-closed","key":"GLOBAL","value":4},
-    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"1149969020972449822","value":3},
-    {"category":"opendiscord:global_opendiscord:tickets-deleted","key":"GLOBAL","value":10},
-    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"1149969020972449822","value":9},
+    {"category":"opendiscord:global_opendiscord:tickets-created","key":"GLOBAL","value":49},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1149969020972449822","value":30},
+    {"category":"opendiscord:global_opendiscord:tickets-closed","key":"GLOBAL","value":20},
+    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"1149969020972449822","value":8},
+    {"category":"opendiscord:global_opendiscord:tickets-deleted","key":"GLOBAL","value":29},
+    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"1149969020972449822","value":13},
     {"category":"opendiscord:global_opendiscord:tickets-pinned","key":"GLOBAL","value":1},
     {"category":"opendiscord:user_opendiscord:tickets-pinned","key":"1149969020972449822","value":1},
     {"category":"opendiscord:global_opendiscord:tickets-claimed","key":"GLOBAL","value":9},
@@ -15,5 +15,10 @@
     {"category":"opendiscord:user_opendiscord:tickets-reopened","key":"1149969020972449822","value":1},
     {"category":"opendiscord:user_opendiscord:tickets-claimed","key":"982054357157703690","value":4},
     {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"982054357157703690","value":1},
-    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1046018486398357586","value":5}
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1046018486398357586","value":15},
+    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"1046018486398357586","value":10},
+    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"1046018486398357586","value":14},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"762730151640825966","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"762730151640825966","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"762730151640825966","value":1}
 ]
