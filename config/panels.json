@@ -14,8 +14,8 @@
     "text": "",
     "embed": {
       "enabled": true,
-      "title": "Tickets:",
-      "description": "Create a ticket by clicking one of the buttons below!",
+      "title": "🎟️ Riot RolePlay Ticket System",
+      "description": "Welcome to the Riot Roleplay Support Center.\n\nTo get started, please choose the category that best matches your issue.\n> ⚠️ You can only have one active ticket at a time.",
 
       "customColor": "#f8ab00",
       "url": "",
@@ -23,7 +23,7 @@
       "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
       "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
 
-      "footer": "Open Ticket v4.0.6 (or leave empty)",
+      "footer": "Riot RolePlay Support",
       "fields": [
         { "name": "field name", "value": "field value", "inline": false }
       ],
@@ -35,7 +35,7 @@
       "enableMaxTicketsWarningInText": false,
       "enableMaxTicketsWarningInEmbed": true,
 
-      "describeOptionsLayout": "detailed",
+      "describeOptionsLayout": "simple",
       "describeOptionsCustomTitle": "",
       "describeOptionsInText": false,
       "describeOptionsInEmbedFields": true,

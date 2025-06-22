@@ -44,14 +44,14 @@
     "enableDeleteWithoutTranscript": true,
 
     "logs": {
-      "enabled": false,
-      "channel": "discord channel id"
+      "enabled": true,
+      "channel": "1386249759194349659"
     },
 
     "limits": {
-      "enabled": true,
-      "globalMaximum": 200,
-      "userMaximum": 1
+      "enabled": false,
+      "userMaximum": 1,
+      "globalMaximum": 0
     },
 
     "permissions": {

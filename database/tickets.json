@@ -1,25 +1,25 @@
 [
     {
         "category":"opendiscord:ticket",
-        "key":"1386221611983835217",
+        "key":"1386250009934172322",
         "value":{
-            "id":"1386221611983835217",
-            "option":"compensation",
+            "id":"1386250009934172322",
+            "option":"player-report",
             "version":"v4.0.6",
             "data":[
                 {"id":"opendiscord:busy","value":false},
-                {"id":"opendiscord:ticket-message","value":"1386221614680768523"},
-                {"id":"opendiscord:participants","value":[{"type":"role","id":"1385484850022318181"},{"type":"user","id":"1149969020972449822"}]},
-                {"id":"opendiscord:channel-suffix","value":"scorpio_420"},
+                {"id":"opendiscord:ticket-message","value":"1386250012689698839"},
+                {"id":"opendiscord:participants","value":[{"type":"role","id":"1385484850022318181"},{"type":"user","id":"982054357157703690"}]},
+                {"id":"opendiscord:channel-suffix","value":"king_arham"},
                 {"id":"opendiscord:open","value":true},
-                {"id":"opendiscord:opened-by","value":"1149969020972449822"},
-                {"id":"opendiscord:opened-on","value":1750571381312},
+                {"id":"opendiscord:opened-by","value":"982054357157703690"},
+                {"id":"opendiscord:opened-on","value":1750578151822},
                 {"id":"opendiscord:closed","value":false},
                 {"id":"opendiscord:closed-by","value":null},
                 {"id":"opendiscord:closed-on","value":null},
-                {"id":"opendiscord:claimed","value":false},
-                {"id":"opendiscord:claimed-by","value":null},
-                {"id":"opendiscord:claimed-on","value":null},
+                {"id":"opendiscord:claimed","value":true},
+                {"id":"opendiscord:claimed-by","value":"982054357157703690"},
+                {"id":"opendiscord:claimed-on","value":1750578165238},
                 {"id":"opendiscord:pinned","value":false},
                 {"id":"opendiscord:pinned-by","value":null},
                 {"id":"opendiscord:pinned-on","value":null},
@@ -31,7 +31,7 @@
                 {"id":"opendiscord:autoclosed","value":false},
                 {"id":"opendiscord:autodelete-enabled","value":false},
                 {"id":"opendiscord:autodelete-days","value":0},
-                {"id":"opendiscord:answers","value":[{"id":"example-question-1","name":"Example Question 1","type":"short","value":"dfs"},{"id":"example-question-2","name":"Example Question 2","type":"paragraph","value":"sdfsf"}]}
+                {"id":"opendiscord:answers","value":[{"id":"example-question-1","name":"Example Question 1","type":"short","value":"123"},{"id":"example-question-2","name":"Example Question 2","type":"paragraph","value":"123"}]}
             ]
         }
     }

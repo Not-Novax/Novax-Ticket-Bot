@@ -2,16 +2,16 @@
   {
     "id": "player-report",
     "name": "Player Report",
-    "description": "Report a player for breaking rules or inappropriate behavior",
+    "description": "Report a player for rule-breaking or inappropriate behavior.",
     "type": "ticket",
 
     "button": {
       "emoji": "📑",
-      "label": "Player Report",
-      "color": "red"
+      "label": "・Player Report",
+      "color": "gray"
     },
 
-    "ticketAdmins": ["1385484850022318181"],
+    "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
     "questions": ["example-question-1", "example-question-2"],
@@ -86,16 +86,16 @@
   {
     "id": "compensation",
     "name": "Compensation",
-    "description": "Request compensation for lost items, bugs, or other issues",
+    "description": "Request compensation for lost items, in-game currency, or issues caused by server bugs.",
     "type": "ticket",
 
     "button": {
       "emoji": "💸",
-      "label": "Compensation",
-      "color": "green"
+      "label": "・Compensation",
+      "color": "gray"
     },
 
-    "ticketAdmins": ["1385484850022318181"],
+    "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
     "questions": ["example-question-1", "example-question-2"],
@@ -170,16 +170,16 @@
   {
     "id": "unban-appeal",
     "name": "Unban Appeal",
-    "description": "Appeal a ban or suspension from the server",
+    "description": "Were you banned from Riot RP? Submit a formal appeal to request a second chance.",
     "type": "ticket",
 
     "button": {
       "emoji": "🔓",
-      "label": "Unban Appeal",
-      "color": "blue"
+      "label": "・Unban Appeal",
+      "color": "gray"
     },
 
-    "ticketAdmins": ["1385484850022318181"],
+    "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": true,
     "questions": ["example-question-1", "example-question-2"],
@@ -254,16 +254,16 @@
   {
     "id": "riot-shop",
     "name": "Riot Shop",
-    "description": "Get help with purchases, refunds, or shop-related issues",
+    "description": "Need help with purchases, refunds, or donation-related issues?",
     "type": "ticket",
 
     "button": {
       "emoji": "🛒",
-      "label": "Riot Shop",
-      "color": "blue"
+      "label": "・Riot Shop",
+      "color": "gray"
     },
 
-    "ticketAdmins": ["1385484850022318181"],
+    "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
     "questions": ["example-question-1", "example-question-2"],
@@ -338,16 +338,16 @@
   {
     "id": "other",
     "name": "Other",
-    "description": "For any other questions or support not covered by other categories",
+    "description": "For any other questions, issues, or concerns not listed above.",
     "type": "ticket",
 
     "button": {
       "emoji": "📩",
-      "label": "Other",
+      "label": "・Other",
       "color": "gray"
     },
 
-    "ticketAdmins": ["1385484850022318181"],
+    "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
     "questions": ["example-question-1", "example-question-2"],
