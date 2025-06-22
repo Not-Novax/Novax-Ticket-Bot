@@ -6,24 +6,24 @@
         "type":"ticket",
 
         "button":{
-            "emoji":"🎫 (or leave empty)",
+            "emoji":"🎫",
             "label":"question (or leave empty)",
-            "color":"gray OR red OR green OR blue"
+            "color":"red"
         },
 
-        "ticketAdmins":["discord role id"],
-        "readonlyAdmins":["discord role id"],
+        "ticketAdmins":["1385484850022318181"],
+        "readonlyAdmins":["1385615223230169269"],
         "allowCreationByBlacklistedUsers":false,
         "questions":["example-question-1","example-question-2"],
 
         "channel":{
             "prefix":"question-",
-            "suffix":"user-name OR user-id OR random-number OR random-hex OR counter-dynamic OR counter-fixed",
-            "category":"category id (or leave empty)",
-            "closedCategory":"category id (or leave empty)",
-            "backupCategory":"category id (or leave empty)",
+            "suffix":"user-name",
+            "category":"1385461859779477505",
+            "closedCategory":"1385704101328846971",
+            "backupCategory":"1385615726055919656",
             "claimedCategory":[
-                {"user":"user id","category":"category id"}
+                {"user":"1149969020972449822","category":"1385616597632417932"}
             ],
             "description":"This is a question ticket (or leave empty)"
         },
@@ -52,10 +52,10 @@
                 "enabled":true,
                 "title":"Question Ticket",
                 "description":"Thank you for creating a 'Question' ticket in our server!\nOur support team will help you as soon as possible!",
-                "customColor":"#f8ab00 (or leave empty)",
+                "customColor":"#f8ab00",
 
-                "image":"https://www.example.com/image.png (or leave empty)",
-                "thumbnail":"https://www.example.com/image.png (or leave empty)",
+                "image":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+                "thumbnail":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
                 "fields":[
                     {"name":"field name","value":"field value","inline":false}
                 ],
@@ -64,7 +64,7 @@
             "ping":{
                 "@here":true,
                 "@everyone":false,
-                "custom":["discord role id"]
+                "custom":["1385484850022318181"]
             }
         },
         "autoclose":{
@@ -111,12 +111,12 @@
         "button":{
             "emoji":"📢",
             "label":"Update Ping",
-            "color":"gray OR red OR green OR blue"
+            "color":"blue"
         },
 
-        "roles":["discord role id"],
-        "mode":"add&remove OR remove OR add",
-        "removeRolesOnAdd":["discord role id"],
+        "roles":["1385704876700467210"],
+        "mode":"add",
+        "removeRolesOnAdd":["1385704884124385332"],
         "addOnMemberJoin":false
     }
 ]

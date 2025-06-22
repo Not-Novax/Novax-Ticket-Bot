@@ -1,1 +1,6 @@
-[]
+[
+    {"category":"opendiscord:global_opendiscord:tickets-created","key":"GLOBAL","value":2},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1149969020972449822","value":2},
+    {"category":"opendiscord:global_opendiscord:tickets-closed","key":"GLOBAL","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"1149969020972449822","value":1}
+]

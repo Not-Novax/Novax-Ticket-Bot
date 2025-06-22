@@ -11,11 +11,11 @@
             "title":"Tickets:",
             "description":"Create a ticket by clicking one of the buttons below!",
             
-            "customColor":"#f8ab00 (or leave empty)",
-            "url":"https://openticket.dj-dj.be (or leave empty)",
+            "customColor":"#f8ab00",
+            "url":"",
 
-            "image":"https://www.example.com/image.png (or leave empty)",
-            "thumbnail":"https://www.example.com/image.png (or leave empty)",
+            "image":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+            "thumbnail":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
             
             "footer":"Open Ticket v4.0.6 (or leave empty)",
             "fields":[
@@ -29,7 +29,7 @@
             "enableMaxTicketsWarningInText":false,
             "enableMaxTicketsWarningInEmbed":true,
 
-            "describeOptionsLayout":"simple OR normal OR detailed",
+            "describeOptionsLayout":"detailed",
             "describeOptionsCustomTitle":"",
             "describeOptionsInText":false,
             "describeOptionsInEmbedFields":true,

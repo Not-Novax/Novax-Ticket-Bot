@@ -12,19 +12,19 @@
         "mode":"html OR text"
     },
     "embedSettings":{
-        "customColor":"#f8ab00 (or leave empty)",
+        "customColor":"#f8ab00",
         "listAllParticipants":false,
         "includeTicketStats":false
     },
     "textTranscriptStyle":{
-        "layout":"simple OR normal OR detailed",
+        "layout":"detailed",
         "includeStats":true,
         "includeIds":false,
         "includeEmbeds":true,
         "includeFiles":true,
         "includeBotMessages":true,
 
-        "fileMode":"custom OR channel-name OR channel-id OR user-name OR user-id",
+        "fileMode":"user-name",
         "customFileName":"this-is-a-transcript (or leave empty)"
     },
     "htmlTranscriptStyle":{

@@ -179,17 +179,9 @@ function loadFromEnv(){
 export const defaultGeneralStructure = new api.ODCheckerObjectStructure("opendiscord:general",{children:[
     //STATUS
     {key:"_INFO",optional:false,priority:0,checker:new api.ODCheckerObjectStructure("opendiscord:info",{children:[
-        {key:"support",optional:false,priority:0,checker:new api.ODCheckerStringStructure("opendiscord:info-support",{choices:["https://otdocs.dj-dj.be"]})},
-        {key:"discord",optional:false,priority:0,checker:new api.ODCheckerStringStructure("opendiscord:info-discord",{choices:["https://discord.dj-dj.be"]})},
-        {key:"version",optional:false,priority:0,checker:new api.ODCheckerStringStructure("opendiscord:info-version",{custom(checker,value,locationTrace,locationId,locationDocs) {
-            const lt = checker.locationTraceDeref(locationTrace)
-            
-            if (typeof value != "string") return false
-            else if (value != "open-ticket-"+opendiscord.versions.get("opendiscord:version").toString()){
-                checker.createMessage("opendiscord:invalid-version","warning","The version specified in your config is invalid! Make sure you have updated it to the latest version!",lt,null,[],locationId,locationDocs)
-                return false
-            }else return true
-        },})},
+        {key:"support",optional:false,priority:0,checker:new api.ODCheckerStringStructure("opendiscord:info-support",{minLength:1})},
+        {key:"discord",optional:false,priority:0,checker:new api.ODCheckerStringStructure("opendiscord:info-discord",{minLength:1})},
+        {key:"version",optional:false,priority:0,checker:new api.ODCheckerStringStructure("opendiscord:info-version",{minLength:1})},
     ]})},
 
     //BASIC
