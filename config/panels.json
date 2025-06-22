@@ -1,39 +1,45 @@
 [
-    {
-        "id":"example-embed",
-        "name":"Example Embed",
-        "dropdown":false,
-        "options":["example-ticket","example-website","example-role"],
+  {
+    "id": "example-embed",
+    "name": "Example Embed",
+    "dropdown": false,
+    "options": [
+      "player-report",
+      "compensation",
+      "unban-appeal",
+      "riot-shop",
+      "other"
+    ],
 
-        "text":"",
-        "embed":{
-            "enabled":true,
-            "title":"Tickets:",
-            "description":"Create a ticket by clicking one of the buttons below!",
-            
-            "customColor":"#f8ab00",
-            "url":"",
+    "text": "",
+    "embed": {
+      "enabled": true,
+      "title": "Tickets:",
+      "description": "Create a ticket by clicking one of the buttons below!",
 
-            "image":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-            "thumbnail":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-            
-            "footer":"Open Ticket v4.0.6 (or leave empty)",
-            "fields":[
-                {"name":"field name","value":"field value","inline":false}
-            ],
-            "timestamp":false
-        },
-        "settings":{
-            "dropdownPlaceholder":"Create a ticket!",
+      "customColor": "#f8ab00",
+      "url": "",
 
-            "enableMaxTicketsWarningInText":false,
-            "enableMaxTicketsWarningInEmbed":true,
+      "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+      "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
 
-            "describeOptionsLayout":"detailed",
-            "describeOptionsCustomTitle":"",
-            "describeOptionsInText":false,
-            "describeOptionsInEmbedFields":true,
-            "describeOptionsInEmbedDescription":false
-        }
+      "footer": "Open Ticket v4.0.6 (or leave empty)",
+      "fields": [
+        { "name": "field name", "value": "field value", "inline": false }
+      ],
+      "timestamp": false
+    },
+    "settings": {
+      "dropdownPlaceholder": "Create a ticket!",
+
+      "enableMaxTicketsWarningInText": false,
+      "enableMaxTicketsWarningInEmbed": true,
+
+      "describeOptionsLayout": "detailed",
+      "describeOptionsCustomTitle": "",
+      "describeOptionsInText": false,
+      "describeOptionsInEmbedFields": true,
+      "describeOptionsInEmbedDescription": false
     }
+  }
 ]

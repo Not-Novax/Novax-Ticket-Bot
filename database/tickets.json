@@ -1,55 +1,19 @@
 [
     {
         "category":"opendiscord:ticket",
-        "key":"1385706597237391440",
+        "key":"1386221611983835217",
         "value":{
-            "id":"1385706597237391440",
-            "option":"example-ticket",
+            "id":"1386221611983835217",
+            "option":"compensation",
             "version":"v4.0.6",
             "data":[
                 {"id":"opendiscord:busy","value":false},
-                {"id":"opendiscord:ticket-message","value":"1385706600001699862"},
-                {"id":"opendiscord:participants","value":[{"type":"role","id":"1385484850022318181"},{"type":"role","id":"1385615223230169269"},{"type":"user","id":"1149969020972449822"}]},
-                {"id":"opendiscord:channel-suffix","value":"scorpio_420"},
-                {"id":"opendiscord:open","value":false},
-                {"id":"opendiscord:opened-by","value":"1149969020972449822"},
-                {"id":"opendiscord:opened-on","value":1750448593469},
-                {"id":"opendiscord:closed","value":true},
-                {"id":"opendiscord:closed-by","value":"1149969020972449822"},
-                {"id":"opendiscord:closed-on","value":1750522021470},
-                {"id":"opendiscord:claimed","value":false},
-                {"id":"opendiscord:claimed-by","value":null},
-                {"id":"opendiscord:claimed-on","value":null},
-                {"id":"opendiscord:pinned","value":false},
-                {"id":"opendiscord:pinned-by","value":null},
-                {"id":"opendiscord:pinned-on","value":null},
-                {"id":"opendiscord:for-deletion","value":false},
-                {"id":"opendiscord:category","value":"1385704101328846971"},
-                {"id":"opendiscord:category-mode","value":"closed"},
-                {"id":"opendiscord:autoclose-enabled","value":false},
-                {"id":"opendiscord:autoclose-hours","value":0},
-                {"id":"opendiscord:autoclosed","value":false},
-                {"id":"opendiscord:autodelete-enabled","value":false},
-                {"id":"opendiscord:autodelete-days","value":0},
-                {"id":"opendiscord:answers","value":[{"id":"example-question-1","name":"Example Question 1","type":"short","value":"yes"},{"id":"example-question-2","name":"Example Question 2","type":"paragraph","value":"no"}]}
-            ]
-        }
-    },
-    {
-        "category":"opendiscord:ticket",
-        "key":"1386013910582169663",
-        "value":{
-            "id":"1386013910582169663",
-            "option":"example-ticket",
-            "version":"v4.0.6",
-            "data":[
-                {"id":"opendiscord:busy","value":false},
-                {"id":"opendiscord:ticket-message","value":"1386013915481247865"},
-                {"id":"opendiscord:participants","value":[{"type":"role","id":"1385484850022318181"},{"type":"role","id":"1385615223230169269"},{"type":"user","id":"1149969020972449822"}]},
+                {"id":"opendiscord:ticket-message","value":"1386221614680768523"},
+                {"id":"opendiscord:participants","value":[{"type":"role","id":"1385484850022318181"},{"type":"user","id":"1149969020972449822"}]},
                 {"id":"opendiscord:channel-suffix","value":"scorpio_420"},
                 {"id":"opendiscord:open","value":true},
                 {"id":"opendiscord:opened-by","value":"1149969020972449822"},
-                {"id":"opendiscord:opened-on","value":1750521862745},
+                {"id":"opendiscord:opened-on","value":1750571381312},
                 {"id":"opendiscord:closed","value":false},
                 {"id":"opendiscord:closed-by","value":null},
                 {"id":"opendiscord:closed-on","value":null},
@@ -67,7 +31,7 @@
                 {"id":"opendiscord:autoclosed","value":false},
                 {"id":"opendiscord:autodelete-enabled","value":false},
                 {"id":"opendiscord:autodelete-days","value":0},
-                {"id":"opendiscord:answers","value":[{"id":"example-question-1","name":"Example Question 1","type":"short","value":";uiktgjkhgjkh"},{"id":"example-question-2","name":"Example Question 2","type":"paragraph","value":"ljkhkljhk"}]}
+                {"id":"opendiscord:answers","value":[{"id":"example-question-1","name":"Example Question 1","type":"short","value":"dfs"},{"id":"example-question-2","name":"Example Question 2","type":"paragraph","value":"sdfsf"}]}
             ]
         }
     }

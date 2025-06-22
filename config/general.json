@@ -5,10 +5,10 @@
     "version": "riot-ticket-v1.0.0"
   },
 
-  "token": "your bot token here! (or leave empty when using 'tokenFromENV')",
+  "token": "",
   "tokenFromENV": true,
 
-  "mainColor": "#f8ba00",
+  "mainColor": "#EB1323",
   "language": "english",
   "prefix": "!ticket ",
   "serverId": "1385461857644712134",
@@ -20,7 +20,7 @@
   "status": {
     "enabled": true,
     "type": "custom",
-    "text": "/help",
+    "text": "Riot Support",
     "status": "online"
   },
 
@@ -50,12 +50,12 @@
 
     "limits": {
       "enabled": true,
-      "globalMaximum": 50,
-      "userMaximum": 3
+      "globalMaximum": 200,
+      "userMaximum": 1
     },
 
     "permissions": {
-      "help": "everyone",
+      "help": "admin",
       "panel": "admin",
       "ticket": "none",
       "close": "everyone",

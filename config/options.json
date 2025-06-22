@@ -1,122 +1,422 @@
 [
-    {
-        "id":"example-ticket",
-        "name":"Question",
-        "description":"Create this ticket if you have a question! (or leave empty)",
-        "type":"ticket",
+  {
+    "id": "player-report",
+    "name": "Player Report",
+    "description": "Report a player for breaking rules or inappropriate behavior",
+    "type": "ticket",
 
-        "button":{
-            "emoji":"🎫",
-            "label":"question (or leave empty)",
-            "color":"red"
-        },
-
-        "ticketAdmins":["1385484850022318181"],
-        "readonlyAdmins":["1385615223230169269"],
-        "allowCreationByBlacklistedUsers":false,
-        "questions":["example-question-1","example-question-2"],
-
-        "channel":{
-            "prefix":"question-",
-            "suffix":"user-name",
-            "category":"1385461859779477505",
-            "closedCategory":"1385704101328846971",
-            "backupCategory":"1385615726055919656",
-            "claimedCategory":[
-                {"user":"1149969020972449822","category":"1385616597632417932"}
-            ],
-            "description":"This is a question ticket (or leave empty)"
-        },
-        
-        "dmMessage":{
-            "enabled":false,
-            "text":"Thank you for creating a ticket in our server! (or leave empty)",
-            "embed":{
-                "enabled":false,
-                "title":"Embed Title! (or leave empty)",
-                "description":"Description (or leave empty)",
-                "customColor":"#f8ab00 (or leave empty)",
-
-                "image":"https://www.example.com/image.png (or leave empty)",
-                "thumbnail":"https://www.example.com/image.png (or leave empty)",
-                "fields":[
-                    {"name":"field name","value":"field value","inline":false}
-                ],
-                "timestamp":false
-            }
-        },
-        "ticketMessage":{
-            "enabled":true,
-            "text":"",
-            "embed":{
-                "enabled":true,
-                "title":"Question Ticket",
-                "description":"Thank you for creating a 'Question' ticket in our server!\nOur support team will help you as soon as possible!",
-                "customColor":"#f8ab00",
-
-                "image":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-                "thumbnail":"https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
-                "fields":[
-                    {"name":"field name","value":"field value","inline":false}
-                ],
-                "timestamp":false
-            },
-            "ping":{
-                "@here":true,
-                "@everyone":false,
-                "custom":["1385484850022318181"]
-            }
-        },
-        "autoclose":{
-            "enableInactiveHours":false,
-            "inactiveHours":24,
-            "enableUserLeave":false,
-            "disableOnClaim":false
-        },
-        "autodelete":{
-            "enableInactiveDays":false,
-            "inactiveDays":7,
-            "enableUserLeave":false,
-            "disableOnClaim":false
-        },
-        "cooldown":{
-            "enabled":false,
-            "cooldownMinutes":10
-        },
-        "limits":{
-            "enabled":false,
-            "globalMaximum":20,
-            "userMaximum":3
-        }
+    "button": {
+      "emoji": "📑",
+      "label": "Player Report",
+      "color": "red"
     },
-    {
-        "id":"example-website",
-        "name":"Website",
-        "description":"Go to our website.",
-        "type":"website",
 
-        "button":{
-            "emoji":"😃",
-            "label":"Visit our website"
-        },
+    "ticketAdmins": ["1385484850022318181"],
+    "readonlyAdmins": [],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["example-question-1", "example-question-2"],
 
-        "url":"https://www.dj-dj.be"
+    "channel": {
+      "prefix": "report-",
+      "suffix": "user-name",
+      "category": "1385461859779477505",
+      "closedCategory": "1385704101328846971",
+      "backupCategory": "1385615726055919656",
+      "claimedCategory": [
+        { "user": "1149969020972449822", "category": "1385616597632417932" }
+      ],
+      "description": "Player Report Ticket"
     },
-    {
-        "id":"example-role",
-        "name":"Update Ping",
-        "description":"Click here to get notified on updates!",
-        "type":"role",
 
-        "button":{
-            "emoji":"📢",
-            "label":"Update Ping",
-            "color":"blue"
-        },
-
-        "roles":["1385704876700467210"],
-        "mode":"add",
-        "removeRolesOnAdd":["1385704884124385332"],
-        "addOnMemberJoin":false
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "#EB1323",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Player Report Ticket",
+        "description": "Thank you for creating a Player Report ticket!\nOur moderation team will review your report as soon as possible.",
+        "customColor": "#EB1323",
+        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "fields": [],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1385484850022318181"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
     }
+  },
+  {
+    "id": "compensation",
+    "name": "Compensation",
+    "description": "Request compensation for lost items, bugs, or other issues",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "💸",
+      "label": "Compensation",
+      "color": "green"
+    },
+
+    "ticketAdmins": ["1385484850022318181"],
+    "readonlyAdmins": [],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["example-question-1", "example-question-2"],
+
+    "channel": {
+      "prefix": "compensation-",
+      "suffix": "user-name",
+      "category": "1385461859779477505",
+      "closedCategory": "1385704101328846971",
+      "backupCategory": "1385615726055919656",
+      "claimedCategory": [
+        { "user": "1149969020972449822", "category": "1385616597632417932" }
+      ],
+      "description": "Compensation Request Ticket"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "#EB1323",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Compensation Request",
+        "description": "Thank you for creating a Compensation Request ticket!\nOur support team will review your request and assist you.",
+        "customColor": "#EB1323",
+        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "fields": [],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1385484850022318181"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  },
+  {
+    "id": "unban-appeal",
+    "name": "Unban Appeal",
+    "description": "Appeal a ban or suspension from the server",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "🔓",
+      "label": "Unban Appeal",
+      "color": "blue"
+    },
+
+    "ticketAdmins": ["1385484850022318181"],
+    "readonlyAdmins": [],
+    "allowCreationByBlacklistedUsers": true,
+    "questions": ["example-question-1", "example-question-2"],
+
+    "channel": {
+      "prefix": "appeal-",
+      "suffix": "user-name",
+      "category": "1385461859779477505",
+      "closedCategory": "1385704101328846971",
+      "backupCategory": "1385615726055919656",
+      "claimedCategory": [
+        { "user": "1149969020972449822", "category": "1385616597632417932" }
+      ],
+      "description": "Unban Appeal Ticket"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "#EB1323",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Unban Appeal",
+        "description": "Thank you for creating an Unban Appeal ticket!\nOur moderation team will review your appeal carefully.",
+        "customColor": "#EB1323",
+        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "fields": [],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1385484850022318181"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  },
+  {
+    "id": "riot-shop",
+    "name": "Riot Shop",
+    "description": "Get help with purchases, refunds, or shop-related issues",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "🛒",
+      "label": "Riot Shop",
+      "color": "blue"
+    },
+
+    "ticketAdmins": ["1385484850022318181"],
+    "readonlyAdmins": [],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["example-question-1", "example-question-2"],
+
+    "channel": {
+      "prefix": "shop-",
+      "suffix": "user-name",
+      "category": "1385461859779477505",
+      "closedCategory": "1385704101328846971",
+      "backupCategory": "1385615726055919656",
+      "claimedCategory": [
+        { "user": "1149969020972449822", "category": "1385616597632417932" }
+      ],
+      "description": "Riot Shop Support Ticket"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "#EB1323",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Riot Shop Support",
+        "description": "Thank you for creating a Riot Shop Support ticket!\nOur shop team will assist you with your purchase or issue.",
+        "customColor": "#EB1323",
+        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "fields": [],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1385484850022318181"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  },
+  {
+    "id": "other",
+    "name": "Other",
+    "description": "For any other questions or support not covered by other categories",
+    "type": "ticket",
+
+    "button": {
+      "emoji": "📩",
+      "label": "Other",
+      "color": "gray"
+    },
+
+    "ticketAdmins": ["1385484850022318181"],
+    "readonlyAdmins": [],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["example-question-1", "example-question-2"],
+
+    "channel": {
+      "prefix": "other-",
+      "suffix": "user-name",
+      "category": "1385461859779477505",
+      "closedCategory": "1385704101328846971",
+      "backupCategory": "1385615726055919656",
+      "claimedCategory": [
+        { "user": "1149969020972449822", "category": "1385616597632417932" }
+      ],
+      "description": "Other Support Ticket"
+    },
+
+    "dmMessage": {
+      "enabled": false,
+      "text": "",
+      "embed": {
+        "enabled": false,
+        "title": "",
+        "description": "",
+        "customColor": "#EB1323",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Other Support",
+        "description": "Thank you for creating an Other Support ticket!\nOur support team will help you with your inquiry.",
+        "customColor": "#EB1323",
+        "image": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "thumbnail": "https://i.ibb.co/xSj3zTyC/discord-banner.jpg",
+        "fields": [],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1385484850022318181"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    }
+  }
 ]
