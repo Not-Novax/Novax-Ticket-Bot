@@ -1,37 +1,31 @@
 [
   {
-    "id": "player-report",
-    "name": "Player Report Form",
-    "description": "Report a player for rule-breaking or inappropriate behavior in-game.",
+    "id": "purchase-product",
+    "name": "Purchase Product",
+    "description": "For issues related to buying a product, payment confirmation, missing license keys, or account activation.",
     "type": "ticket",
 
     "button": {
-      "emoji": "📑",
-      "label": "・Player Report",
+      "emoji": "🛒",
+      "label": "・Purchase Product",
       "color": "gray"
     },
 
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
-    "questions": [
-      "report-question-1",
-      "report-question-2",
-      "report-question-3",
-      "report-question-4",
-      "report-question-5"
-    ],
+    "questions": [],
 
     "channel": {
-      "prefix": "report-",
+      "prefix": "🛒・ᴘᴜʀᴄʜᴀsᴇ ᴘʀᴏᴅᴜᴄᴛ ",
       "suffix": "counter-dynamic",
-      "category": "1386325038549962772",
-      "closedCategory": "1386325452360122378",
-      "backupCategory": "1386325452360122378",
+      "category": "1387517361401364560",
+      "closedCategory": "1387519311924563979",
+      "backupCategory": "1387519311924563979",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
-      "description": "Player Report Ticket"
+      "description": "Purchase Product Ticket"
     },
 
     "dmMessage": {
@@ -41,7 +35,7 @@
         "enabled": false,
         "title": "",
         "description": "",
-        "customColor": "#EB1323",
+        "customColor": "#32007A",
         "image": "",
         "thumbnail": "",
         "fields": [],
@@ -53,18 +47,18 @@
       "text": "",
       "embed": {
         "enabled": true,
-        "title": "📑 Player Report Ticket",
-        "description": "✔️ Thank you for submitting a Player Report ticket! Our moderation team will review your report as soon as possible. Please be patient while we investigate. 🕵️‍♂️",
-        "customColor": "#EB1323",
-        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
-        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284314789941299/Player_Report.gif?ex=68592560&is=6857d3e0&hm=b373974bf1b156dc814dd3e7b9a834c755a1cbb2e47d1a48d6132b21fad06574&",
+        "title": "✨Welcome to NOVAX 🛒 Purchase Support!🛠️",
+        "description": "Thank you for reaching out — we’re glad to have you as part of the NovaX community. 🛡️\n\nOur team is here to assist you with any purchase-related questions or concerns. 🤝",
+        "customColor": "#32007A",
+        "image": "https://cdn.discordapp.com/attachments/1378718636491018345/1378732872839594004/TICKET_PANEL_1.gif?ex=685d508c&is=685bff0c&hm=cae8477ff6dd025045bf476c22856ad15190eb61ba4a454eec1140eb055ef091&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1378718636491018345/1378736743703908465/logo1_2.gif?ex=685d5427&is=685c02a7&hm=7cc0cdeb4c2993d394d6fbf448c2b786bc78b4dc1bfe95653f4cbab60a3cc155&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1384303684506353795"]
+        "custom": ["1019237419414982678"]
       }
     },
     "autoclose": {
@@ -90,38 +84,32 @@
     }
   },
   {
-    "id": "compensation",
-    "name": "Compensation Request Form",
-    "description": "Request compensation for lost items, in-game currency, or issues caused by server bugs.",
+    "id": "product-support",
+    "name": "Product Support",
+    "description": "For technical help with our product — crashes, errors, setup problems, or usage questions.",
     "type": "ticket",
 
     "button": {
-      "emoji": "💸",
-      "label": "・Compensation",
+      "emoji": "🛠️",
+      "label": "・Product Support",
       "color": "gray"
     },
 
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": false,
-    "questions": [
-      "compensation-question-1",
-      "compensation-question-2",
-      "compensation-question-3",
-      "compensation-question-4",
-      "compensation-question-5"
-    ],
+    "questions": [],
 
     "channel": {
-      "prefix": "compensation-",
+      "prefix": "🛠️・ᴘʀᴏᴅᴜᴄᴛ sᴜᴘᴘᴏʀᴛ ",
       "suffix": "counter-dynamic",
-      "category": "1386325092388311081",
-      "closedCategory": "1386325452360122378",
-      "backupCategory": "1386325452360122378",
+      "category": "1387517574387994654",
+      "closedCategory": "1387519311924563979",
+      "backupCategory": "1387519311924563979",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
-      "description": "Compensation Request Ticket"
+      "description": "Product Support Ticket"
     },
 
     "dmMessage": {
@@ -131,7 +119,7 @@
         "enabled": false,
         "title": "",
         "description": "",
-        "customColor": "#EB1323",
+        "customColor": "#32007A",
         "image": "",
         "thumbnail": "",
         "fields": [],
@@ -143,18 +131,18 @@
       "text": "",
       "embed": {
         "enabled": true,
-        "title": "Compensation Request",
-        "description": "💸 Thank you for creating a Compensation Request ticket! Our support team will review your request and assist you as soon as possible. Please be patient.",
-        "customColor": "#EB1323",
-        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
-        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284292161667082/Compensation.gif?ex=6859255b&is=6857d3db&hm=df1ce9307d3820d30af0457e63692f28d37dba49bba7be8a351cdc7c6d6ba5fe&",
+        "title": "✨ Welcome to NOVAX Support! 🛠️",
+        "description": "We're glad to have you here, and we’re committed to providing top-notch assistance for any questions ❓ or concerns you may have. 🛡️ \n\nPlease take a moment to share the details of your issue ⚠️ — the more specific, the better! Our support team will get back to you as quickly as possible ⏱️. \n🤝 Your satisfaction is our highest priority.",
+        "customColor": "#32007A",
+        "image": "https://media.discordapp.net/attachments/1378718636491018345/1378732873279864882/TICKET_PANEL_2.gif?ex=685d508c&is=685bff0c&hm=6e606f7710ed671887681c87cd8ce43efabdd5bb42738f8f8804342ad39b679a&=&width=341&height=146",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1378718636491018345/1378736743703908465/logo1_2.gif?ex=685d5427&is=685c02a7&hm=7cc0cdeb4c2993d394d6fbf448c2b786bc78b4dc1bfe95653f4cbab60a3cc155&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1384303684506353795"]
+        "custom": ["1019237419414982678"]
       }
     },
     "autoclose": {
@@ -180,38 +168,32 @@
     }
   },
   {
-    "id": "unban-appeal",
-    "name": "Unban Appeal Form",
-    "description": "Were you banned from Riot RP? Submit a formal appeal to request a second chance.",
+    "id": "key-reset",
+    "name": "Key Reset",
+    "description": "For resetting or rebinding your product license key to a new device or HWID.",
     "type": "ticket",
 
     "button": {
-      "emoji": "🔓",
-      "label": "・Unban Appeal",
+      "emoji": "🔐",
+      "label": "・Key Reset",
       "color": "gray"
     },
 
     "ticketAdmins": [],
     "readonlyAdmins": [],
     "allowCreationByBlacklistedUsers": true,
-    "questions": [
-      "unban-question-1",
-      "unban-question-2",
-      "unban-question-3",
-      "unban-question-4",
-      "unban-question-5"
-    ],
+    "questions": [],
 
     "channel": {
-      "prefix": "appeal-",
+      "prefix": "🔐・ᴋᴇʏ ʀᴇsᴇᴛ ",
       "suffix": "counter-dynamic",
-      "category": "1386325129726005429",
-      "closedCategory": "1386325452360122378",
-      "backupCategory": "1386325452360122378",
+      "category": "1387517799135445122",
+      "closedCategory": "1387519311924563979",
+      "backupCategory": "1387519311924563979",
       "claimedCategory": [
         { "user": "1149969020972449822", "category": "1385616597632417932" }
       ],
-      "description": "Unban Appeal Ticket"
+      "description": "Key Reset Ticket"
     },
 
     "dmMessage": {
@@ -221,7 +203,7 @@
         "enabled": false,
         "title": "",
         "description": "",
-        "customColor": "#EB1323",
+        "customColor": "#32007A",
         "image": "",
         "thumbnail": "",
         "fields": [],
@@ -233,186 +215,18 @@
       "text": "",
       "embed": {
         "enabled": true,
-        "title": "Unban Appeal",
-        "description": "🔓 Thank you for creating an Unban Appeal ticket! Our moderation team will review your appeal carefully and get back to you as soon as possible. 🕵️‍♀️",
-        "customColor": "#EB1323",
-        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
-        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284350542450688/Unban_Appeal.gif?ex=68592569&is=6857d3e9&hm=3beeb740ce19f6677ef46f5cc07e7a5f8441e3a68c6149661e4789b6977cf039&",
+        "title": "✨ Welcome to NOVAX Support – Key Reset 🔑🛠️",
+        "description": "Thank you for trusting NovaX. We’re committed to making your key reset process smooth and hassle-free. 🛡️ \n\nPlease provide the details of your issue ⚠️ — such as device change, HWID lock, or key error — and our team will respond swiftly ⏱️ to assist you. \n🤝 Your satisfaction is our top priority",
+        "customColor": "#32007A",
+        "image": "https://cdn.discordapp.com/attachments/1378718636491018345/1378732873678327808/TICKET_PANEL_3.gif?ex=685d508c&is=685bff0c&hm=9d45417b32b87b2f24800526c6d1f65d9ce3302694daeae8a1e6e891f815212d&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1378718636491018345/1378736743703908465/logo1_2.gif?ex=685d5427&is=685c02a7&hm=7cc0cdeb4c2993d394d6fbf448c2b786bc78b4dc1bfe95653f4cbab60a3cc155&",
         "fields": [],
         "timestamp": false
       },
       "ping": {
         "@here": false,
         "@everyone": false,
-        "custom": ["1384303684506353795"]
-      }
-    },
-    "autoclose": {
-      "enableInactiveHours": false,
-      "inactiveHours": 24,
-      "enableUserLeave": false,
-      "disableOnClaim": false
-    },
-    "autodelete": {
-      "enableInactiveDays": false,
-      "inactiveDays": 7,
-      "enableUserLeave": false,
-      "disableOnClaim": false
-    },
-    "cooldown": {
-      "enabled": false,
-      "cooldownMinutes": 10
-    },
-    "limits": {
-      "enabled": false,
-      "globalMaximum": 200,
-      "userMaximum": 3
-    }
-  },
-  {
-    "id": "riot-shop",
-    "name": "Shop Purchase Form",
-    "description": "Need help with purchases, refunds, or donation-related issues?",
-    "type": "ticket",
-
-    "button": {
-      "emoji": "🛒",
-      "label": "・Riot Shop",
-      "color": "gray"
-    },
-
-    "ticketAdmins": [],
-    "readonlyAdmins": [],
-    "allowCreationByBlacklistedUsers": false,
-    "questions": ["shop-question-1", "shop-question-2", "shop-question-3"],
-
-    "channel": {
-      "prefix": "shop-",
-      "suffix": "counter-dynamic",
-      "category": "1386325165566328892",
-      "closedCategory": "1386325452360122378",
-      "backupCategory": "1386325452360122378",
-      "claimedCategory": [
-        { "user": "1149969020972449822", "category": "1385616597632417932" }
-      ],
-      "description": "Riot Shop Support Ticket"
-    },
-
-    "dmMessage": {
-      "enabled": false,
-      "text": "",
-      "embed": {
-        "enabled": false,
-        "title": "",
-        "description": "",
-        "customColor": "#EB1323",
-        "image": "",
-        "thumbnail": "",
-        "fields": [],
-        "timestamp": false
-      }
-    },
-    "ticketMessage": {
-      "enabled": true,
-      "text": "",
-      "embed": {
-        "enabled": true,
-        "title": "Riot Shop Support",
-        "description": "🛒 Thank you for creating a Riot Shop Support ticket! Our shop team will assist you with your purchase or issue as soon as possible. 🧾💬",
-        "customColor": "#EB1323",
-        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
-        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284326412488787/Riot_Shop.gif?ex=68592563&is=6857d3e3&hm=5c011776987a34b2cea5ba9c66f02ff257b4130220a37c0ad8c43f005810d310&",
-        "fields": [],
-        "timestamp": false
-      },
-      "ping": {
-        "@here": false,
-        "@everyone": false,
-        "custom": ["1384303684506353795"]
-      }
-    },
-    "autoclose": {
-      "enableInactiveHours": false,
-      "inactiveHours": 24,
-      "enableUserLeave": false,
-      "disableOnClaim": false
-    },
-    "autodelete": {
-      "enableInactiveDays": false,
-      "inactiveDays": 7,
-      "enableUserLeave": false,
-      "disableOnClaim": false
-    },
-    "cooldown": {
-      "enabled": false,
-      "cooldownMinutes": 10
-    },
-    "limits": {
-      "enabled": false,
-      "globalMaximum": 200,
-      "userMaximum": 3
-    }
-  },
-  {
-    "id": "other",
-    "name": "Other – General Inquiry or Request",
-    "description": "For any questions, concerns, or issues not covered by other forms, please fill out the details below.",
-    "type": "ticket",
-
-    "button": {
-      "emoji": "📩",
-      "label": "・Other",
-      "color": "gray"
-    },
-
-    "ticketAdmins": [],
-    "readonlyAdmins": [],
-    "allowCreationByBlacklistedUsers": false,
-    "questions": ["other-question-1", "other-question-2", "other-question-3"],
-
-    "channel": {
-      "prefix": "other-",
-      "suffix": "counter-dynamic",
-      "category": "1386325208587309126",
-      "closedCategory": "1386325452360122378",
-      "backupCategory": "1386325452360122378",
-      "claimedCategory": [
-        { "user": "1149969020972449822", "category": "1385616597632417932" }
-      ],
-      "description": "Other Support Ticket"
-    },
-
-    "dmMessage": {
-      "enabled": false,
-      "text": "",
-      "embed": {
-        "enabled": false,
-        "title": "",
-        "description": "",
-        "customColor": "#EB1323",
-        "image": "",
-        "thumbnail": "",
-        "fields": [],
-        "timestamp": false
-      }
-    },
-    "ticketMessage": {
-      "enabled": true,
-      "text": "",
-      "embed": {
-        "enabled": true,
-        "title": "Other Support",
-        "description": "📝 Thank you for creating an Other Support ticket! Our support team will review your inquiry and assist you shortly. 🤝",
-        "customColor": "#EB1323",
-        "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
-        "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284252475166791/other.gif?ex=68592551&is=6857d3d1&hm=e3c2d72ad99b85592f365a9a60b562cdb6d688c125449f214fd1915a2ec8ab1e&",
-        "fields": [],
-        "timestamp": false
-      },
-      "ping": {
-        "@here": false,
-        "@everyone": false,
-        "custom": ["1384303684506353795"]
+        "custom": ["1019237419414982678"]
       }
     },
     "autoclose": {

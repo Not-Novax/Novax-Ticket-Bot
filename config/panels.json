@@ -1,29 +1,27 @@
 [
   {
-    "id": "riot-support",
-    "name": "Riot Support",
+    "id": "novax-support",
+    "name": "Novax Support",
     "dropdown": false,
     "options": [
-      "player-report",
-      "compensation",
-      "unban-appeal",
-      "riot-shop",
-      "other"
+      "purchase-product",
+      "product-support",
+      "key-reset"
     ],
 
     "text": "",
     "embed": {
       "enabled": true,
-      "title": "🎟️ Riot RolePlay Ticket System",
-      "description": "Welcome to the Riot Roleplay Support Center.\n\nTo get started, please choose the category that best matches your issue.\n> ⚠️ You can only have one active ticket at a time.",
+      "title": "🎟️ NOVAX Ticket System",
+      "description": "Welcome to the NOVAX Support Center.\n\nTo get started, please select the category that best matches your issue from the options below.\n> ⚠️ You may only have one active ticket per subject.",
 
-      "customColor": "#EB1323",
+      "customColor": "#32007A",
       "url": "",
 
-      "image": "https://cdn.discordapp.com/attachments/1384239482710134855/1386284343768518776/Riot_Support.gif?ex=68592567&is=6857d3e7&hm=7541faf97bf0f102ee62e7d085e80aaedef3888114d0604cdb95a33343042801&",
-      "thumbnail": "https://cdn.discordapp.com/attachments/1384239482710134855/1386340997075828856/Riot_Ticket.gif?ex=68595a2a&is=685808aa&hm=0a3f85b5a1f6254e0422c069c5a128219df61b8272452b697d141696ce0ba3bc&",
+      "image": "https://cdn.discordapp.com/attachments/1378718636491018345/1378736743703908465/logo1_2.gif?ex=685d5427&is=685c02a7&hm=7cc0cdeb4c2993d394d6fbf448c2b786bc78b4dc1bfe95653f4cbab60a3cc155&",
+      "thumbnail": "",
 
-      "footer": "Riot RolePlay Support",
+      "footer": "Novax Support",
       "fields": [
         { "name": "field name", "value": "field value", "inline": false }
       ],

@@ -1,18 +1,18 @@
 {
   "_INFO": {
-    "support": "https://discord.gg/hhdz7c6S",
-    "discord": "https://discord.gg/hhdz7c6S",
-    "version": "riot-ticket-v1.0.0"
+    "support": "https://discord.gg/n7sGwCsgP3",
+    "discord": "https://discord.gg/n7sGwCsgP3",
+    "version": "novax-ticket-v1.0.0"
   },
 
   "token": "",
   "tokenFromENV": true,
 
-  "mainColor": "#EB1323",
+  "mainColor": "#32007A",
   "language": "english",
   "prefix": "!ticket ",
-  "serverId": "1055520851950317608",
-  "globalAdmins": ["1384303684506353795"],
+  "serverId": "1001434563375018014",
+  "globalAdmins": ["1019237419414982678"],
 
   "slashCommands": true,
   "textCommands": true,
@@ -20,7 +20,7 @@
   "status": {
     "enabled": true,
     "type": "custom",
-    "text": "Riot Support",
+    "text": "Novax Ticket",
     "status": "online"
   },
 
@@ -46,7 +46,7 @@
 
     "logs": {
       "enabled": true,
-      "channel": "1384237036659015700"
+      "channel": "1123367654196002878"
     },
 
     "limits": {

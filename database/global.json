@@ -4,10 +4,12 @@
     {"category":"opendiscord:last-version","key":"opendiscord:transcripts","value":"v2.0.0"},
     {"category":"opendiscord:last-version","key":"opendiscord:livestatus","value":"v2.0.0"},
     {"category":"opendiscord:last-version","key":"opendiscord:last-version","value":"v4.0.6"},
-    {"category":"opendiscord:option-suffix-counter","key":"player-report","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"compensation","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"unban-appeal","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"riot-shop","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"other","value":0},
-    {"category":"opendiscord:counter","key":"opendiscord:dynamic-ticket-counter","value":0}
+    {"category":"opendiscord:counter","key":"opendiscord:dynamic-ticket-counter","value":0},
+    {"category":"opendiscord:option-suffix-counter","key":"purchase-product","value":0},
+    {"category":"opendiscord:option-suffix-counter","key":"product-support","value":0},
+    {"category":"opendiscord:option-suffix-counter","key":"key-reset","value":0},
+    {"category":"opendiscord:panel-message","key":"1387507060555383025_1387514847071043656","value":"novax-support"},
+    {"category":"opendiscord:panel-update","key":"1387507060555383025_1387514847071043656","value":"novax-support"},
+    {"category":"opendiscord:panel-message","key":"1091975934460055583_1387524535930065078","value":"novax-support"},
+    {"category":"opendiscord:panel-update","key":"1091975934460055583_1387524535930065078","value":"novax-support"}
 ]
