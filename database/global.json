@@ -1,13 +1,1 @@
-[
-    {"category":"opendiscord:last-version","key":"opendiscord:version","value":"v4.0.6"},
-    {"category":"opendiscord:last-version","key":"opendiscord:api","value":"v1.0.0"},
-    {"category":"opendiscord:last-version","key":"opendiscord:transcripts","value":"v2.0.0"},
-    {"category":"opendiscord:last-version","key":"opendiscord:livestatus","value":"v2.0.0"},
-    {"category":"opendiscord:last-version","key":"opendiscord:last-version","value":"v4.0.6"},
-    {"category":"opendiscord:counter","key":"opendiscord:dynamic-ticket-counter","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"purchase-product","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"product-support","value":0},
-    {"category":"opendiscord:option-suffix-counter","key":"key-reset","value":0},
-    {"category":"opendiscord:panel-message","key":"1091975934460055583_1387526816461357081","value":"novax-support"},
-    {"category":"opendiscord:panel-update","key":"1091975934460055583_1387526816461357081","value":"novax-support"}
-]
+[]
